@@ -2215,6 +2215,7 @@ int main(int argc, char **argv)
 
 	}
 
+/*
 	if (sec_mismatch_count && section_error_on_mismatch) {
 		err |= 1;
 		printf(
@@ -2222,6 +2223,6 @@ int main(int argc, char **argv)
 		"build with:\n'make CONFIG_NO_ERROR_ON_MISMATCH=y'\n"
 		"(NOTE: This is not recommended)\n");
 	}
-
+*/
 	return err;
 }
